@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Lab 1: Digimon Madness"
+title: Digimon Madness (Lab 1)
 subtitle: Battle with the Digimon Dataset
 cover-img: /assets/img/digimon_cover.png
 thumbnail-img: /assets/img/digimon_thumbnail.png
