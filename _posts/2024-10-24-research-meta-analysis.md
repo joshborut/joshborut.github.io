@@ -2,7 +2,7 @@
 layout: post
 title: Hook, Line, and Thinker (Meta-analysis)
 subtitle: Diving into a Study on Fish Hooks
-cover-img: /assets/img/fish_cover.png
+cover-img: /assets/img/fish_cover.jpg
 thumbnail-img: /assets/img/fish_thumbnail.png
 share-img: /assets/img/fish_cover.jpg
 tags: [meta-analysis]
