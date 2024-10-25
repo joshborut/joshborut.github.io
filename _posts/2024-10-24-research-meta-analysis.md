@@ -56,4 +56,6 @@ As with most studies, there is a risk of *publish* or *perish*. This phrase refe
 
 # Conclusion
 
-I enjoyed looking at this small study because it shows the scientific discoveries that can be made even with what I assume to be a relatively small budget. I firmly believe that a control group would have strengthened the legitimacy of this paper, but I found that the authors were relatively transparent about what conclusions they could and could not make from their data. I also liked trying to weave in as many fish puns as possible!
+I enjoyed looking at this small study because it shows how scientific discoveries  can be made even with what I assume to be a relatively small budget. I firmly believe that a control group would have strengthened the legitimacy of this paper, but I found that the authors were relatively transparent about what conclusions they could and could not make from their data. If I had to judge the reliability of this paper, I would give it a __4.5/5__.
+
+### My overall takeaway from this process of analyzing research papers: If results seem too good to be true, be skeptical and look deeper yourself; don't just take the bait! (*of course I had to end with a fishing pun*)
