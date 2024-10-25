@@ -16,7 +16,7 @@ author: Joshua Borut
 Never before has this quote held more truth. After finding a journal article about the application of AI for renewable energy with notable conflicts of interest that I thought would be __the one__, I realized that the paper was not so much a study as much a design scheme for the neural network model. With that, I dove back into the sea of journal articles--courtesy of the *Horace Mann Katz Library*--until I stumbled across an *alluring* (pun intended) paper on the effectivity of fishing hooks. With that, I cast my meta-analysis rod and started reeling in the data (last pun...maybe).
 
 # 1. Hypotheses
-[Hook Types Influence The Catch Effectiveness, Injuries, and Survival Rates of Fishes in Recreational Fishing](https://research-ebsco-com.horacemann.idm.oclc.org/c/qideok/viewer/pdf/n2ua7c4iav) is an experimental study that investigates the optimal hooks for catch and release fishing to prevent fish injuries and mortality. 
+[Hook Types Influence The Catch Effectiveness, Injuries, and Survival Rates of Fishes in Recreational Fishing](https://research-ebsco-com.horacemann.idm.oclc.org/c/qideok/viewer/pdf/n2ua7c4iav) is a 2023 experimental study that investigates the optimal hooks for catch and release fishing to prevent fish injuries and mortality. 
 
 Although the null hypothesis is not *explicitly* stated, it is that there is no statistically significant relationship between __fish survival rates__ and the __types of hook__ used to catch them. The alternative hypothesis is that both __circle hooks__ and __octopus hooks__ impact fish survival rates, with __octopus hooks__ resulting in a higher likelihood of survival. In addition, the authors draw other conclusions with respect to hook effectivity. Nonetheless, this alternative hypothesis is the main focus. The independent variable is the hook type while the dependant variables are fish survival rate, injury type, and the number of fish caught. 
 
@@ -56,6 +56,6 @@ As with most studies, there is a risk of *publish* or *perish*. This phrase refe
 
 # Conclusion
 
-I enjoyed looking at this small study because it shows how scientific discoveries  can be made even with what I assume to be a relatively small budget. I firmly believe that a control group would have strengthened the legitimacy of this paper, but I found that the authors were relatively transparent about what conclusions they could and could not make from their data. If I had to judge the reliability of this paper, I would give it a __4.5/5__.
+I enjoyed looking at this small study because it shows how scientific discoveries can be made even with what I assume to have been a relatively small budget. I firmly believe that a control group would have strengthened the legitimacy of this paper, but I found that the authors were relatively transparent about what conclusions they could and could not make from their data. If I had to judge the reliability of this paper, I would give it a __4.5/5__.
 
 ### My overall takeaway from this process of analyzing research papers: If results seem too good to be true, be skeptical and look deeper yourself; don't just take the bait! (*of course I had to end with a fishing pun*)
