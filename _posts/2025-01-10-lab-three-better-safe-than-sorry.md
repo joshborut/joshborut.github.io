@@ -2,9 +2,9 @@
 layout: post
 title: Better Safe than Sorry (Lab 3)
 subtitle: Exploring the Statistics of Health Insurance 
-cover-img: /assets/img/insurance_cover.png
+cover-img: /assets/img/insurance_cover.jpg
 thumbnail-img: /assets/img/insurance_thumbnail.png
-share-img: /assets/img/insurance_cover.png
+share-img: /assets/img/insurance_cover.jpg
 tags: [labs]
 author: Joshua Borut
 ---
