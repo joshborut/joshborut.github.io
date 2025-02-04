@@ -13,7 +13,7 @@ I began my search for an interesting visualization on the *New York Times* inter
 
 # Graph 1: Summer Temperatures
 
-![NYT Graph](/assets/img/nyt_graph.png)
+![NYT Graph 1](/assets/img/temp_graph.png)
 
 This graph compares climate during summers in the Northern Hemisphere between 1951 and 1980 to that from the recent years of 2013 to 2023. I found it interesting because it captures the upward trend in temperature in an easily understood manner. Moreover, it is timely considering how climate change impacted the rampant spread of fires in Los Angeles. 
 
@@ -41,5 +41,7 @@ I sought to replicate this graph, but with generated data. Even with __Vega Alta
 </body>
 
 # Graph 2: Immigration
+
+![NYT Graph 2](/assets/img/immigration_graph.png)
 
 This graph also comes from the *New York Times*, but it instead focuses on immigration. I took interest in this graph because of the recent rise in anti-immigraiton sentiment following President Donald Trump's inaugeration. The graph's __marks__ are lines and area while the __channels__ are height, position, and color. It compares the __quantitative__ variable of percent to the __temporal__ variable of time. The graph reveals a steep dip in immigration from Europe and an increase in immigration from the Americas begining in around 1970. This makes sense considering the passage of the *Hart Celler Act* that overhauled the immigration system in 1965.
