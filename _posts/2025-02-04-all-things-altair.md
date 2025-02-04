@@ -33,7 +33,7 @@ I sought to replicate this graph, but with generated data. Even with __Vega Alta
 <div id="vis"></div>
 
 <script type="text/javascript">
-  var spec = "https://raw.githubusercontent.com/vega/vega/master/docs/examples/bar-chart.vg.json";
+  var spec = "https://raw.githubusercontent.com/joshborut/joshborut.github.io/403e2f7420c868b2c7139827920eb95f7c6a5e9c/assets/graphs/summer_temps.json";
   vegaEmbed('#vis', '/assets/summer_temps.json').then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
