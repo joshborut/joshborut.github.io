@@ -21,7 +21,7 @@ Bar
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 </head>
 
-<div id="vis"></div>
+<div id="vis1"></div>
 
 <script type="text/javascript">
   var spec = "https://raw.githubusercontent.com/joshborut/joshborut.github.io/5a4aa4fc8dfd7c61fa3ea20157e6bb4669ea012e/assets/graphs/bar_plot.json";
@@ -31,15 +31,7 @@ Bar
 </script>
 
 Republican
-<head>
-  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
-  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
-  <!-- Import vega-embed -->
-  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-</head>
-
-<div id="vis"></div>
+<div id="vis2"></div>
 
 <script type="text/javascript">
   var spec = "https://raw.githubusercontent.com/joshborut/joshborut.github.io/5a4aa4fc8dfd7c61fa3ea20157e6bb4669ea012e/assets/graphs/R_plot.json";
@@ -49,15 +41,7 @@ Republican
 </script>
 
 Democrat
-<head>
-  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
-  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
-  <!-- Import vega-embed -->
-  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-</head>
-
-<div id="vis"></div>
+<div id="vis3"></div>
 
 <script type="text/javascript">
   var spec = "https://raw.githubusercontent.com/joshborut/joshborut.github.io/f5152c227e3be2e7c110df72b5b0ea0e126b5147/assets/graphs/D_plot.json";
@@ -67,15 +51,7 @@ Democrat
 </script>
 
 Independent
-<head>
-  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
-  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
-  <!-- Import vega-embed -->
-  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-</head>
-
-<div id="vis"></div>
+<div id="vis4"></div>
 
 <script type="text/javascript">
   var spec = "https://raw.githubusercontent.com/joshborut/joshborut.github.io/5a4aa4fc8dfd7c61fa3ea20157e6bb4669ea012e/assets/graphs/I_plot.json";
@@ -85,15 +61,7 @@ Independent
 </script>
 
 Third-Party
-<head>
-  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
-  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
-  <!-- Import vega-embed -->
-  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-</head>
-
-<div id="vis"></div>
+<div id="vis5"></div>
 
 <script type="text/javascript">
   var spec = "https://raw.githubusercontent.com/joshborut/joshborut.github.io/5a4aa4fc8dfd7c61fa3ea20157e6bb4669ea012e/assets/graphs/T_plot.json";
@@ -103,15 +71,7 @@ Third-Party
 </script>
 
 Libertarian
-<head>
-  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
-  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
-  <!-- Import vega-embed -->
-  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-</head>
-
-<div id="vis"></div>
+<div id="vis6"></div>
 
 <script type="text/javascript">
   var spec = "https://github.com/joshborut/joshborut.github.io/blob/5a4aa4fc8dfd7c61fa3ea20157e6bb4669ea012e/assets/graphs/L_plot.json";
@@ -119,6 +79,7 @@ Libertarian
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>
+
 Soon after offering this advice to supporters on Truth Social on April 9, President Trump placed a 90-day pause on many of his most impactful tariffs, causing the S&P 500 to soar by 9.5%. This dramatic increase–the most since World War II–triggered accusations of market manipulation and insider trading. The nature of this event brought me to question the economic ethics of other politicians. Specifically, I wanted to see how Congress members who are less likely to be monitored and scrutinized make economic decisions and whether their success coincides with policy change.
 
 I quickly found that the Stop Trading on Congressional Knowledge Act, known better as the [STOCK Act](https://campaignlegal.org/update/congressional-stock-trading-and-stock-act), was the key to sourcing this data. The policy, made in 2012 in an effort to combat inside trading, stipulates that Congress people must disclose their expenditures within 30 days of making an investment. While the act was intended to harshen punishments for insider trading, a lack of enforcement has led to a severe underreporting of stock purchases. This unaccounted data complicates drawing conclusions for my purposes. Furthermore, the myriad of factors that influence portfolio success make it difficult to discern between insider knowledge and strategic investment. 
