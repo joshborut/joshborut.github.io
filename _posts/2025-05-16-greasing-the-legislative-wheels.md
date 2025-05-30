@@ -137,8 +137,6 @@ Next, I made a choropleth representing the total amount contributed by PACs per 
 
 # Analysis
 
-## Bar Chart
-
 <div id="vis7"></div>
 
 <script type="text/javascript">
@@ -174,3 +172,11 @@ Analyzing how JD Vance interacted with his PACs serves as an example of how this
 I found that this project served as a good refresher of all the skills we learned this year in terms of graphing with __Altair__ and using statistical analysis. I also found that I struggled the most, but also learned the most, with this real-world dataset given that it wasn’t as simple as clicking the download button on __Kaggle__; instead, I had acquire the data through outreach where I defended my project, grapple with the unique naming conventions of __OpenSecrets__, and 
 
 While the data I used is from prior election cycles, I hope that it will serve as an informative tool for voters looking to evaluate where candidates source their money from. Some candidates' names are recognizable and still active on the United States’ political stage, but the ones that aren’t still serve a purpose in this project. They not only provide insight into which PACs may reach out to a constituent, but also reveal which candidates certain industries tend to favor. Regardless of the impact of this small, somewhat scientific study, it still stands as a meaningful contribution in pursuit of political transparency in the United States.
+
+### Additional references
+
+* https://medium.com/data-analytics-at-nesta/vega-altair-interactive-maps-d9c3bd77af50
+
+* https://medium.com/@dr.junghoonson/using-altair-to-building-dynamic-interactive-choropleth-maps-8e7e8b051227
+
+* https://altair-viz.github.io/gallery/us_incomebrackets_by_state_facet.html
