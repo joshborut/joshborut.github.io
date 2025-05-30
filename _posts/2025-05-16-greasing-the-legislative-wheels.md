@@ -48,7 +48,7 @@ OpenSecrets makes it quite easy to download data. Once a bulk data account is ap
 
 Here, each row is an individual donation. Additionally, the `donor` column is not crucial for the purposes of this article but I created it nonetheless in case I ever want to expand the dataset to cover __individual donations__. 
 
-# Plots
+# Making Lots of Plots
 
 Before plotting the data, we can do some rudimentary operations on the set to get a sense of its contents. Namely, we can can use __Panda’s__ `.describe()` function:
 
@@ -64,7 +64,7 @@ I created a bar chart where the vertical axis is the total amount of money provi
 
 Next, I made a choropleth representing the total amount contributed by PACs per industry in each state for both liberal and conservative candidates. Although the dataset included Independent, Third-Party, and Libertarian candidates, I mainly focused on the Democratic and Republican Parties as I assumed that they would provide the starkest difference in terms of results considering that they are on opposite ends of the political spectrum. I implemented interactive features for the chart such that the user is able to select individual states and look at the total contributions across industries for that given state. Furthermore, I implemented a legend so the user can modify which industries are represented, enabling more granular analysis. Lastly, I added __ticks__ just as I did in the first graph to show the __mean total contributions__ in a specific state.
 
-# Graphs
+# Plots
 
 <head>
   <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
@@ -74,22 +74,18 @@ Next, I made a choropleth representing the total amount contributed by PACs per 
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 </head>
 
+## Candidates
+
 <div id="vis1"></div>
 
 <script type="text/javascript">
   var spec = "https://raw.githubusercontent.com/joshborut/joshborut.github.io/5a4aa4fc8dfd7c61fa3ea20157e6bb4669ea012e/assets/graphs/bar_plot.json";
-  vegaEmbed('#vis1', spec).then(function(result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
-</script>
-
-<script type="text/javascript">
-  var spec = "https://raw.githubusercontent.com/joshborut/joshborut.github.io/5a4aa4fc8dfd7c61fa3ea20157e6bb4669ea012e/assets/graphs/bar_plot.json";
-  vegaEmbed('#vis1', spec).then(function(result) {
+  vegaEmbed('#vis2', spec).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script> 
 
+## Republican
 <div id="vis2"></div>
 
 <script type="text/javascript">
@@ -99,6 +95,7 @@ Next, I made a choropleth representing the total amount contributed by PACs per 
   }).catch(console.error);
 </script>
 
+## Democrat
 <div id="vis3"></div>
 
 <script type="text/javascript">
@@ -110,6 +107,8 @@ Next, I made a choropleth representing the total amount contributed by PACs per 
 
 <div id="vis4"></div>
 
+## Independent
+
 <script type="text/javascript">
   var spec = "https://raw.githubusercontent.com/joshborut/joshborut.github.io/5a4aa4fc8dfd7c61fa3ea20157e6bb4669ea012e/assets/graphs/I_plot.json";
   vegaEmbed('#vis4', spec).then(function(result) {
@@ -117,6 +116,7 @@ Next, I made a choropleth representing the total amount contributed by PACs per 
   }).catch(console.error);
 </script>
 
+## Third-Party
 <div id="vis5"></div>
 
 <script type="text/javascript">
@@ -126,6 +126,7 @@ Next, I made a choropleth representing the total amount contributed by PACs per 
   }).catch(console.error);
 </script>
 
+## Libertarian
 <div id="vis6"></div>
 
 <script type="text/javascript">
