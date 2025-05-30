@@ -74,7 +74,7 @@ Libertarian
 <div id="vis6"></div>
 
 <script type="text/javascript">
-  var spec = "https://github.com/joshborut/joshborut.github.io/blob/5a4aa4fc8dfd7c61fa3ea20157e6bb4669ea012e/assets/graphs/L_plot.json";
+  var spec = "https://raw.githubusercontent.com/joshborut/joshborut.github.io/5a4aa4fc8dfd7c61fa3ea20157e6bb4669ea012e/assets/graphs/L_plot.json";
   vegaEmbed('#vis6', spec).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
