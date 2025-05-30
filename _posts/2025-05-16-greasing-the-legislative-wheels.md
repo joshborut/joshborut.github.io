@@ -25,7 +25,7 @@ Bar
 
 <script type="text/javascript">
   var spec = "https://raw.githubusercontent.com/joshborut/joshborut.github.io/5a4aa4fc8dfd7c61fa3ea20157e6bb4669ea012e/assets/graphs/bar_plot.json";
-  vegaEmbed('#vis', spec).then(function(result) {
+  vegaEmbed('#vis1', spec).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>
@@ -35,7 +35,7 @@ Republican
 
 <script type="text/javascript">
   var spec = "https://raw.githubusercontent.com/joshborut/joshborut.github.io/5a4aa4fc8dfd7c61fa3ea20157e6bb4669ea012e/assets/graphs/R_plot.json";
-  vegaEmbed('#vis', spec).then(function(result) {
+  vegaEmbed('#vis2', spec).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>
@@ -45,7 +45,7 @@ Democrat
 
 <script type="text/javascript">
   var spec = "https://raw.githubusercontent.com/joshborut/joshborut.github.io/f5152c227e3be2e7c110df72b5b0ea0e126b5147/assets/graphs/D_plot.json";
-  vegaEmbed('#vis', spec).then(function(result) {
+  vegaEmbed('#vis3', spec).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>
@@ -55,7 +55,7 @@ Independent
 
 <script type="text/javascript">
   var spec = "https://raw.githubusercontent.com/joshborut/joshborut.github.io/5a4aa4fc8dfd7c61fa3ea20157e6bb4669ea012e/assets/graphs/I_plot.json";
-  vegaEmbed('#vis', spec).then(function(result) {
+  vegaEmbed('#vis4', spec).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>
@@ -65,7 +65,7 @@ Third-Party
 
 <script type="text/javascript">
   var spec = "https://raw.githubusercontent.com/joshborut/joshborut.github.io/5a4aa4fc8dfd7c61fa3ea20157e6bb4669ea012e/assets/graphs/T_plot.json";
-  vegaEmbed('#vis', spec).then(function(result) {
+  vegaEmbed('#vis5', spec).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>
@@ -75,7 +75,7 @@ Libertarian
 
 <script type="text/javascript">
   var spec = "https://github.com/joshborut/joshborut.github.io/blob/5a4aa4fc8dfd7c61fa3ea20157e6bb4669ea012e/assets/graphs/L_plot.json";
-  vegaEmbed('#vis', spec).then(function(result) {
+  vegaEmbed('#vis6', spec).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>
